@@ -24,7 +24,7 @@ def validate_triangle
   triangle = [(a + b > c),(a + c > b),(b + c > a)]
   [a, b, c].each {|x| triangle << false if x <= 0}
 raise TriangleError if triangle.include?(false)
-end 
+end
 
   class TriangleError < StandardError
   end
