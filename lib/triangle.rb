@@ -2,7 +2,7 @@ class Triangle
   # write code here
 
   attr_reader :a, :b, :c
-  
+
   def initialize(a, b, c)
     @a = a
     @b = b
@@ -17,13 +17,13 @@ class Triangle
     else
       :scalene
      end
-   end       
+   end
 
 
- 
 
-    
-  
+
+
+
 
 
 
