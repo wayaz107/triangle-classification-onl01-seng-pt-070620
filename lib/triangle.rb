@@ -23,6 +23,7 @@ class Triangle
       :scalene
      end
    end
+ end
 
 # def validate_triangle
 #   triangle = [(a + b > c),(a + c > b),(b + c > a)]
